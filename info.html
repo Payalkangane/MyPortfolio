@@ -7,7 +7,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="design.css">
 </head>
-<body style="background-color: black;">
+<body style="background-color: rgb(24, 23, 36);">
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
 
@@ -15,10 +15,9 @@
        
         <nav class="navbar">
             <a class="nav-text" href="#" class="active">Home </a>
-            <a class="nav-text" href="#">About</a>
-            <a class="nav-text" href="#">Portfolio</a>
-            <a class="nav-text" href="#">Skills</a>
-            <a class="nav-text" href="#">Contact</a>
+            <a class="nav-text" href="#About">About</a>
+            <a class="nav-text" href="#Skills">Skills</a>
+            <a class="nav-text" href="#Contact">Contact</a>
           </nav>
     </header>
    
@@ -43,9 +42,87 @@
         </div>
         <a href="#" class="btn">Download CV</a>
     </div>
+   
+   
     <div class="home-img">
     <img class= "bg-image" src="girl2.webp">
 </div>
-    </section>
+</section>
+
+
+
+
+
+<section class="About" id="About">
+    <div class="About-img">
+        <img src="girl2.webp" alt="">
+    </div>
+
+    <div class="about-content">
+        <div class="heading"><h2>About<span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p style="color:white"> I possess a keen enthusiasm for expanding my still set by learning  advanced programing techniques form
+        seasoned industry professionals.I am a very focused person I always work towards my goals.I am a team player.
+         My goal is to acquire hands on experience that will propel my understanding and capabilities 
+    within the dynamic relm of computer science.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="Skills" id="Skills">
+    <h2 class="heading">Skills </h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>       
+                <h3> Web development</h3>
+                <p>the overall process of creating websites or web 
+                applications, including the projects design,
+                 layout, coding, content creation, and functionality.></p>
+                <a href="#" class="btn">Read More></a>
+            </div>
+
+                <div class="skills-box">
+                <i class='bx bxl-c-plus-plus'></i>
+                 <h3> C++</h3>
+                 <p>C++ is an object-oriented programming language which
+                     gives a clear structure to programs and allows code to be reused,
+                     lowering development costs. C++ is portable and can be used to 
+                     develop.</p>
+                <a href="#" class="btn">Read More></a>
+            </div>
+
+            
+             <div class="skills-box">
+                <i class='bx bxl-java'></i>
+                <h3>Java</h3>
+                <p>Java is a multi-platform, object-oriented, and network-centric
+                     language that can be used as a platform in itself.Java is a widely-used programming 
+                     language for coding web applications.</p>
+                <a href="#" class="btn">Read More></a>
+                </div>
+            </section>
+
+
+            <section class="Contact" id="Contact">
+                <h2 class="heading">Contact<span>Me!</span></h2>
+                <form action="#">
+                 <div class="input-box">
+                    <input type="text" placeholder="Full name">
+                    <input type="email" placeholder="Email Address">
+                 </div>
+
+                 <div class="input-box">
+                    <input type="number" placeholder="Mobile number">
+                    <input type="text" placeholder="Email Subject">
+                 </div>
+
+                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                 <input type="submit" value="Send Message" class="btn">
+                </form>
+            </section>
 </body>
 </html>
